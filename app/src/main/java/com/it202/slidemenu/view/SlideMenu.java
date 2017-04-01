@@ -44,6 +44,6 @@ public class SlideMenu extends ViewGroup {
     @Override
     protected void onLayout(boolean changed, int l, int t, int r, int b) {
         mainView.layout(l, t, r, b);
-        menuView.layout(-menuView.getLayoutParams().width, 0, 0, b);
+        menuView.layout(-menuView.getLayoutParams().width,0, 0,b);
     }
 }
